@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myntra</title>
+    <link rel="stylesheet" href="../PracticeSetCSS/myntra.css">
+</head>
+<body>
+
+    <button id="bag" onclick="cardQuantity ++; document.querySelector('#card-summery').innerText ='Your bag has ' + cardQuantity + ' items';">Add to Bag</button>
+    <button id="list" onclick="cardQuantity --; document.querySelector('#card-summery').innerText ='Your bag has ' + cardQuantity + ' items';">MOVE TO WISHLIST</button>
+    <button id="bag" onclick="cardQuantity +=2; document.querySelector('#card-summery').innerText ='Your bag has ' + cardQuantity + ' items';">Add 1+1 sale itom</button>
+    
+
+    <h2 id="card-summery"></h2>
+    <script>
+        let cardQuantity=0;
+        document.querySelector('#card-summery').innerText ='Your bag has ' + cardQuantity + ' items';
+    </script>
+</body>
+</html>
