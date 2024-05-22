@@ -1,0 +1,23 @@
+#container{
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 5px;
+    width: 200px;
+}
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 20px;
+    border: 2px solid yellowgreen;
+}
+#button_container{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    height: 45 px;
+    width: 45px;
+    /* border-radius: 5px 5px; */
+    margin: 3px ;
+}
