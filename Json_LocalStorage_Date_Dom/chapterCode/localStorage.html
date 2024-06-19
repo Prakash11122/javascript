@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <script>
+        // localStorage.setItem('firstName', 'Mr prakash');
+        // localStorage.setItem('lastName', 'pradhan')
+       
+        
+
+        let product = {
+            name : 'pant',
+            sixe : '32',
+            color : 'black',
+             rating : {
+                stairs : 4.2,
+                review : 5465,
+
+             },
+        };
+         //store iin local storage    , inspect go to application and storage
+        // localStorage.setItem('product', JSON.stringify(product));
+
+         //retrive from local storage
+
+        // let product2= JSON.parse(localStorage.getItem('product'));
+        // console.log(product2)
+
+        localStorage.removeItem('sixe');
+        localStorage.clear();
+
+
+
+
+    </script>
+</body>
+</html>
